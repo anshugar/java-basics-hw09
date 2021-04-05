@@ -22,8 +22,19 @@ public class ArraysTest {
                         new String[]{"here", "is", "some", "text", ".", "text"},
                         new String[]{"some", "text", "above", "."},
                         new String[]{"some", "text", "."}
-                }
+                },
                 // TODO add 2 more test data here
+                {
+                        new String[]{"ABC", "MNO", "GHI"},
+                        new String[]{"XYZ", "PQR"},
+                        new String[]{}
+                },
+                {
+                        new String[]{"Alpha", "Beta", "Gamma", "Alpha", "Beta", "Delta"},
+                        new String[]{"Delta", "Gamma", "Alpha", "Delta"},
+                        new String[]{"Alpha", "Gamma", "Delta"}
+                }
+
         };
     }
 
